@@ -4,7 +4,7 @@ export class ApiService {
       const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
         method: "POST",
         headers: {
-          "Authorization": "Bearer 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",
+          "Authorization": "Bearer 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",
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
